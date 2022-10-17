@@ -1,4 +1,3 @@
-def printscores():
+def minmax(numbers):
     # Make your code
 
-    # make a function call 'printscore( )'
