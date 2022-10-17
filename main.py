@@ -1,3 +1,3 @@
 
-def mineven(numbers):
-	# make your code
+def minmax(numbers):
+    # make your code
