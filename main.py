@@ -11,7 +11,7 @@ def minmax(numbers):
     ########################################
     # Do not delete the return statement
     ########################################
-    return maxval, minval
+    return minval, maxval
 
 
 def main():
