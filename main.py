@@ -2,15 +2,18 @@ import random
 
 
 def minmax(numbers):
-    """
-    ########################################
-    Code Your Program here
-    ########################################
-    """
-
-    ########################################
-    # Do not delete the return statement
-    ########################################
+    minval = None
+    maxval = None
+    
+    for n in numbers:
+        #find minval
+        if minval is None or n < minval:
+            minval = n
+        
+        #find maxval
+        if maxval is None or n > maxval:
+            maxval = n
+    
     return minval, maxval
 
 
